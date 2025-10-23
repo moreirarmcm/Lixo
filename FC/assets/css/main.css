@@ -2171,7 +2171,8 @@ input, select, textarea {
 /* Banner */
 
 #banner {
-	background: #CCE8F4 url("../../images/fundoNuvens2.jpg") center center / cover no-repeat;
+	background: #CCE8F4 url("../../images/fundoNuvens2.jpg") center center;
+		background-size:cover;
 	text-align: center;
 	position: relative;
 	padding: 2em 0;
@@ -2180,8 +2181,9 @@ input, select, textarea {
 
 	#banner img {
 		width: 40%;
-		height: 20%;
-		
+		height: auto;
+		--max-width: 600px;
+		min-width: 250px;
 	}
 			#banner header img {
 				color: #324e76;
