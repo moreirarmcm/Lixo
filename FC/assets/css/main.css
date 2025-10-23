@@ -2172,7 +2172,8 @@ input, select, textarea {
 
 #banner {
 	background: #CCE8F4 url("../../images/fundoNuvens2.jpg") center center;
-		background-size:cover;
+	background-size:cover;
+	height: 60vh;
 	text-align: center;
 	position: relative;
 	padding: 2em 0;
